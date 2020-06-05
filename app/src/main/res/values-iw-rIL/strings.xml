@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">קלפים</string>
+    <string name="out_of_lives">נגמרו לך הנסיונות</string>
+    <string name="try_again">נסה שוב</string>
+    <string name="home_page">דף הבית</string>
+    <string name="play_Again">שחק שוב</string>
+    <string name="well_done">כל הכבוד!</string>
+    <string name="out_of_time">נגמר לך הזמן</string>
+    <string name="buy_time">קנה  30 שניות 500</string>
+    <string name="buy_lives">"קנה  3 נסיונות 500 "</string>
+    <string name="next_level">שלב הבא</string>
+    <string name="not_enough_coins">אין לך מספיק מטבעות</string>
+    <string name="worlds">עולמות</string>
+    <string name="animals">חיות</string>
+    <string name="space">חלל</string>
+    <string name="Sea">ים</string>
+    <string name="open_now">פתח כעת:</string>
+    <string name="coming_soon">שלבים חדשים בקרוב</string>
+</resources>

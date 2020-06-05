@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color2"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:paddingHorizontal="30dp"
+        android:background="@color/color1"
+
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/coin"
+            android:id="@+id/easyCoin"
+            android:elevation="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="1200"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="10dp"
+            android:textColor="@color/color2"
+            android:textSize="25sp"
+            android:id="@+id/easyNumOfCoinsTV"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/clock"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="1200"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="10dp"
+            android:textColor="@color/color2"
+            android:textSize="25sp"
+            android:id="@+id/easyTimerTV"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/lives"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:text="10"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="5dp"
+            android:textColor="@color/color2"
+            android:textSize="25sp"
+            android:id="@+id/easyNumOfLivesTV"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:id="@+id/easyLayout"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_gravity="center_horizontal"
+            android:textDirection="ltr"
+            android:paddingTop="7dp"
+
+            android:id="@+id/score"
+            android:textColor="@color/white"
+            android:fontFamily="@font/luckiest_guy"
+            android:textSize="40sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard1"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard2"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard3"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard4"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard5"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard6"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard7"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard8"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard9"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard10"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard11"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/easyCard12"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

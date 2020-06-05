@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardUseCompatPadding="true"
+
+    app:cardElevation="8dp"
+    card_view:cardPreventCornerOverlap="false"
+    android:id="@+id/openCellCardView"
+    app:cardCornerRadius="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:id="@+id/openCellLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/animals"
+        android:paddingTop="20dp"
+
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:fontFamily="@font/fb_spoiler"
+        android:textColor="@color/white"
+        android:id="@+id/worldTitle"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:padding="5dp">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/levelBtn1"
+            android:text="1"
+            android:fontFamily="@font/luckiest_guy"
+            android:textSize="30sp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/levels_btn"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/levelBtn2"
+            android:text="2"
+            android:fontFamily="@font/luckiest_guy"
+            android:textSize="30sp"
+            android:enabled="false"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/levels_btn"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/levelBtn3"
+            android:text="3"
+            android:enabled="false"
+            android:fontFamily="@font/luckiest_guy"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:background="@drawable/levels_btn"/>
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

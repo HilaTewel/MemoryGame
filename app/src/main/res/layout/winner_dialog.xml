@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_background">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/well_done"
+            android:fontFamily="@font/fb_spoiler"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/color1"
+            android:layout_marginHorizontal="40dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:scaleType="fitCenter"
+            android:layout_marginHorizontal="40dp"
+            android:src="@drawable/throphy1"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/next_level"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:fontFamily="@font/fb_spoiler"
+            android:background="@drawable/green_btn"
+            android:layout_marginHorizontal="40dp"
+            android:id="@+id/nextLevel"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/play_Again"
+            android:textColor="#fff"
+            android:background="@drawable/blue_btn"
+            android:textSize="24sp"
+            android:fontFamily="@font/fb_spoiler"
+            android:layout_marginHorizontal="40dp"
+            android:id="@+id/playAgain"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/home_page"
+            android:fontFamily="@font/fb_spoiler"
+            android:textColor="#fff"
+            android:background="@drawable/blue_btn"
+            android:textSize="24sp"
+            android:layout_marginHorizontal="40dp"
+            android:id="@+id/winGoHome"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+</LinearLayout>

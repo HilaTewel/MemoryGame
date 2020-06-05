@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color2"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:paddingHorizontal="30dp"
+        android:background="@color/color1"
+
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/coin"
+            android:elevation="10dp"
+            android:id="@+id/hardCoin"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="1200"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="10dp"
+            android:textColor="@color/color2"
+            android:textSize="25sp"
+            android:id="@+id/hardNumOfCoinsTV"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/clock"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:text="1200"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="10dp"
+            android:textColor="@color/color2"
+            android:textSize="25sp"
+            android:id="@+id/hardTimerTV"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/lives"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:text="10"
+            android:fontFamily="@font/luckiest_guy"
+            android:padding="5dp"
+            android:textColor="@color/color2"
+            android:textSize="25sp"
+            android:id="@+id/hardNumOfLivesTV"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:id="@+id/hardLayout"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center_horizontal"
+            android:textDirection="ltr"
+            android:paddingTop="7dp"
+            android:id="@+id/score"
+            android:textColor="@color/white"
+            android:fontFamily="@font/luckiest_guy"
+            android:textSize="40sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard1"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard2"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard3"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard4"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard5"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard6"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard7"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard8"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard9"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard10"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard11"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard12"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard13"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard14"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard15"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard16"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard17"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard18"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard19"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard20"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard21"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard22"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard23"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard24"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard25"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard26"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard27"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard28"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard29"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"/>
+            <androidx.cardview.widget.CardView
+                style="@style/cardviewStyle">
+                <ImageView
+                    style="@style/cardImageViewStyle"
+                    android:id="@+id/hardCard30"
+                    android:src="@drawable/animals_card_back"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
